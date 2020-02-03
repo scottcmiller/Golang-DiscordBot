@@ -15,7 +15,7 @@ import (
 
 func init() {
 
-	flag.StringVar(&Token, "t", "NDIyMTczOTczMjkyNTE1MzI5.DYX7rw.ShX5NdWRvny_7MX_crfKsN49Blc",
+	flag.StringVar(&Token, "t", ".src/config.TOKEN",
 		"BOT TOKEN")
 	flag.Parse()
 }
